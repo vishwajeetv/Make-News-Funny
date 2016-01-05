@@ -70,6 +70,7 @@ function handleText(textNode)
         v = v.replace(/\bself driving\b/g, "uncontrollably swerving");
         v = v.replace(/\bPoll\b/g, "Psychic reading");
         v = v.replace(/\bPolls\b/g, "Psychic readings");
+        v = v.replace(/\bpoll\b/g, "psychic readings");
         v = v.replace(/\bpolls\b/g, "psychic readings");
         v = v.replace(/\bCandidate\b/g, "Airbender");
         v = v.replace(/\bCandidates\b/g, "Airbenders");
