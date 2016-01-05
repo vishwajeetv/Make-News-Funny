@@ -1,0 +1,14 @@
+{
+        "manifest_version": 2,
+        "name": "Make News Funny",
+        "version": "2.0",
+        "description": "Replaces text on websites to funnier versions. See http://xkcd.com/1288/ & http://xkcd.com/1625/ ",
+        "content_scripts": 
+        [
+                {
+                        "matches": ["*://*/*"],
+                        "js": ["content_script.js"],
+                        "run_at": "document_end"
+                }
+        ]
+}
