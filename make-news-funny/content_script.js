@@ -1,3 +1,8 @@
+
+String.prototype.lowerize = function() {
+    return this.charAt(0).toLowerCase() + this.slice(1);
+};
+
 dictionary = [
     {"Witnesses":"These dudes I know"},
     {"Allegedly":"Kinda probably"},
