@@ -20,6 +20,7 @@ dictionary = [
     {"Could not be reached for comment":"Is guilty and everyone knows it"},
     {"Debate":"Dance-off"},
     {"Self driving":"Uncontrollably swerving"},
+    {"Self-driving":"Uncontrollably swerving"},
     {"Poll":"Psychic reading"},
     {"Candidate":"Airbender"},
     {"Drone":"Dog"},
